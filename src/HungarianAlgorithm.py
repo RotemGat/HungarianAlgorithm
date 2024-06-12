@@ -2,8 +2,7 @@ import numpy as np
 
 
 def min_zero_row(zero_mat, mark_zero):
-    '''
-    The function can be splitted into two steps:
+    ''' The function can be splitted into two steps:
     #1 The function is used to find the row which containing the fewest 0.
     #2 Select the zero number on the row, and then marked the element corresponding row and column as False
     '''
@@ -23,9 +22,7 @@ def min_zero_row(zero_mat, mark_zero):
 
 
 def mark_matrix(mat):
-    '''
-    Finding the returning possible solutions for LAP problem.
-    '''
+    """ Finding the returning possible solutions """
 
     # Transform the matrix to boolean matrix(0 = True, others = False)
     cur_mat = mat
